@@ -22,7 +22,7 @@ public class Datum
  
   public Datum(int t,m,j){
     
-    if (t>=1) && (t<=31) && (m>=1) && (m<=12){
+    if (t>=1 && t<=31 && m>=1 && m<=12){
       
     this.t = t;
     this.m = m;
