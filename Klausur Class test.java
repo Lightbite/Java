@@ -2,9 +2,9 @@ public class Main {
 
  public static void main(String[] args) {
    
-   Auto[] Ar = new Auto[1];   // Array vom typ Auto erstellen  
+   Auto[] Ar = new Auto[1];   // 1 zeiliges Array vom typ Auto erstellen 
    
-   Ar[0] = new Auto(17,27000,true);  // Werte des nullten Array eintrages definieren
+   Ar[0] = new Auto(17,27000,true);  // Werte des nullten Array-Eintrages definieren
    
      System.out.println("Modell:" +Ar[0].modell + " Preis:" +Ar[0].preis +" Benzin:" +Ar[0].benzin);
    
