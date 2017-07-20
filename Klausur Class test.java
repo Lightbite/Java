@@ -4,7 +4,7 @@ public class Main {
    
    Auto[] Ar = new Auto[1];   // 1 zeiliges Array vom typ Auto erstellen 
    
-   Ar[0] = new Auto(17,27000,true);  // Werte des nullten Array-Eintrages definieren
+   Ar[0] = new Auto(17,27000,true);  // Werte des nullten Array-Eintrages mittels Konstruktor definieren
    
      System.out.println("Modell:" +Ar[0].modell + " Preis:" +Ar[0].preis +" Benzin:" +Ar[0].benzin);
    
